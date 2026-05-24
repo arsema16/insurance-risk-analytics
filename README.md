@@ -61,7 +61,7 @@ pip install -r requirements.txt
 
 # Pull versioned data from DVC remote
 dvc pull
-```bash
+```
 ## 🔄 Data Version Control (DVC)
 
 This project uses DVC to version large data files. Two versions are tracked:
@@ -82,8 +82,9 @@ git log --oneline data/insurance_data.csv.dvc
 # Checkout a specific version
 git checkout <commit-hash> data/insurance_data.csv.dvc
 dvc checkout
+```
 DVC Commands Used
-bash
+```bash
 # Initialize DVC
 dvc init
 
@@ -99,13 +100,15 @@ dvc push
 
 # Pull data (for reproducibility)
 dvc pull
+```
 🧪 Running Tests
-bash
+```bash
 # Run all tests
 pytest tests/
 
 # Run with verbose output
 pytest tests/ -v
+```
 ## 📈 CI/CD Pipeline
 
 GitHub Actions automatically runs:
