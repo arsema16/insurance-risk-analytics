@@ -18,6 +18,7 @@ ACIS needs to move from intuition-based pricing to **analytics-driven decisions*
 ---
 
 ## 📁 Project Structure
+```
 insurance-risk-analytics/
 ├── .github/workflows/ # CI/CD pipeline (GitHub Actions)
 ├── data/ # Versioned with DVC (not in Git)
@@ -39,7 +40,7 @@ insurance-risk-analytics/
 ├── .dvc/ # DVC configuration
 ├── requirements.txt # Python dependencies
 └── README.md # This file
-
+```
 ---
 
 ## 🚀 Getting Started
