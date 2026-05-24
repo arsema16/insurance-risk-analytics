@@ -150,23 +150,6 @@ GitHub Actions automatically runs:
 
 - **Arsema** - Data Analytics Engineer
 
-### Tutors
-- Kerod
-- Mahbubah
-- Feven
-
----
-
-## 📄 License
-
-This project is part of the 10 Academy AI Mastery program.
-
----
-
-## 🙏 Acknowledgments
-
-- 10 Academy for the learning resources
-- AlphaCare Insurance Solutions for the business context
 
 ---
 
