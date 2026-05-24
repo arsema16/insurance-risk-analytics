@@ -4,19 +4,18 @@ __pycache__/
 *.so
 .Python
 
-# Data files
-data/
-*.csv
-*.xlsx
+# Data files (but not the .dvc files)
+data/*.csv
+!data/*.dvc
+
+# DVC (track the .dvc directory, not the cache)
+!.dvc
+.dvc/tmp/
+.dvc/cache/
 
 # IDE
 .vscode/
 .idea/
-
-# DVC
-.dvc/
-*.dvc
-!data/insurance_data.csv.dvc
 
 # Environment
 .env
