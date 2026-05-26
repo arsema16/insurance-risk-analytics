@@ -1,0 +1,5 @@
+Hypothesis,Null Hypothesis (H₀),Test Used,Test Statistic,P-value,Reject H₀?,Business Implication
+H1: Province risk differences,No risk differences across provinces,Chi-square,10.5609,0.031969,✓ Yes,Implement province-based pricing tiers
+H2: Zip code risk differences,No risk differences between zip codes,Chi-square,3.7895,0.435237,✗ No,No zip code adjustment needed
+H3: Zip code margin differences,No margin differences between zip codes,ANOVA,1.2781,0.276197,✗ No,Uniform marketing across zip codes
+H4: Gender risk differences,No risk difference between genders,Chi-square,0.0448,0.832306,✗ No,Maintain gender-neutral pricing
